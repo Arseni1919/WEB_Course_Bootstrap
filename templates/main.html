@@ -3,5 +3,9 @@
 {% block title %}Main Page{% endblock %}
 
 {% block body %}
-<h1>Welcome to Main Page!:)</h1>
+    {% include "navbar_component.html" %}
+    {% include "showcase_component.html" %}
+    {% include "newsletter_component.html" %}
+    {% include 'boxes_component.html' %}
+    <h1>Welcome to Main Page!:)</h1>
 {% endblock %}
